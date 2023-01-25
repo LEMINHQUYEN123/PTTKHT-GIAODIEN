@@ -1,0 +1,89 @@
+.infohotel
+{
+    width: 700px;
+    height: 450px;
+    border: solid black 2px;
+    
+   
+}
+#img1
+{
+    
+    transform: translate(25px,20px);
+}
+#info
+{
+    transform: translate(300px,-25px);
+    background-color:white;
+    color: red;
+    width: 150px;
+    
+    font-weight: 800;
+
+}
+/* USER */
+.block
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+   
+
+}
+.userhotel
+{
+    width: 300px;
+    height: 450px;
+    border: 3px solid black;
+    background-image: url(http://127.0.0.1:5500/form%20demo/img/h%C3%ACnh%20background%20kh%C3%A1ch%20s%E1%BA%A1n.jpg);
+}
+input
+{
+    width: 290px;
+    height: 30px;
+    border: solid #2969d9 2px;
+    margin-left: 3px;
+}
+.form-label1 
+{
+    position: absolute;
+    transform: translate(8px,-30px);
+    
+}
+.form-label2
+{
+    position: absolute;
+    transform: translate(8px,-30px);
+    
+}
+.password
+{
+  margin-top: 20px;
+}
+input:not(:placeholder-shown)+.form-label1,
+input:focus+.form-label1
+
+{
+  
+   opacity: 0;
+}
+input:not(:placeholder-shown)+.form-label2,
+input:focus+.form-label2
+{
+  
+  
+    opacity: 0;
+   
+}
+
+.LOGIN
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #2969d9;
+    color: white;
+    font-weight: 800;
+    margin-left: 100px;
+    margin-top: 20px;
+}
